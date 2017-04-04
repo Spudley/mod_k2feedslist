@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>Feeds List for K2</name>
+		<description>Quick and simple list of RSS feeds for your K2 categories</description>
+		<element>k2feedslist</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<client>0</client>
+		<infourl title="Feeds List for K2">https://github.com/Spudley/mod_k2feedslist/releases/tag/1.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Spudley/mod_k2feedslist/archive/1.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[56789]" />
+        <php_minimum>5.5.0</php_minimum>
+	</update>
+</updates>

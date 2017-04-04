@@ -24,4 +24,7 @@
 			</fieldset>
 		</fields>
 	</config>
+    <updateservers>
+        <server type="extension" priority="2" name="K2 Feeds List Updates">https://raw.githubusercontent.com/Spudley/mod_k2feedslist/master/update.xml</server>
+    </updateservers>
 </extension>
