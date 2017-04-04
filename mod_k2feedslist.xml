@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.6" client="site" method="upgrade">
+	<name>MOD_K2FEEDSLIST_NAME</name>
+	<author>Simon Champion</author>
+	<creationDate>April 2017</creationDate>
+    <copyright>Copyright (C) 2017 Simon Champion.</copyright>
+    <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <authorEmail>simon@simonchampion.net</authorEmail>
+    <authorUrl>https://github.com/Spudley</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_K2FEEDSLIST_DESCRIPTION</description>
+	<files>
+		<filename module="mod_k2feedslist">mod_k2feedslist.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_k2feedslist.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_k2feedslist.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_k2/elements/">
+                <field name="k2cats" type="categoriesmultiple" default="" label="MOD_K2FEEDSLIST_K2CATS_LABEL" description="MOD_K2FEEDSLIST_K2CATS_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
