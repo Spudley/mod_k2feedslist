@@ -7,7 +7,7 @@
     <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
     <authorEmail>simon@simonchampion.net</authorEmail>
     <authorUrl>https://github.com/Spudley</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>MOD_K2FEEDSLIST_DESCRIPTION</description>
 	<files>
 		<filename module="mod_k2feedslist">mod_k2feedslist.php</filename>
