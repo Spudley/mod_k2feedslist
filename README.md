@@ -1,5 +1,5 @@
-Simple K2 Tag Filtering
-=======================
+Simple K2 Feed List
+===================
 
 A small Joomla!/K2 module to provide a list of RSS feeds on your site.
 
